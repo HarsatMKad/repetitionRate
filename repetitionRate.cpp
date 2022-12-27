@@ -19,8 +19,8 @@ symbol alphabet[26];
 int main() {
   fstream file;
   fstream filec;
-  file.open("text");
-  filec.open("text");
+  file.open("text.txt");
+  filec.open("text.txt");
 
   if (!file.is_open()) {
     cout << "Файл не найден.";
